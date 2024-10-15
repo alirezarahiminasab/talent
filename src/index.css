@@ -1,3 +1,72 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'BNazaninBold';
+    src: url('./assets/fonts/B Nazanin Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BNazaninOutline';
+    src: url('./assets/fonts/B Nazanin Outline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BNazanin';
+    src: url('./assets/fonts/B Nazanin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lalezar';
+    src: url('./assets/fonts/Lalezar-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BTitrBold';
+    src: url('./assets/fonts/B Titr Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DigiLalezarPlus';
+    src: url('./assets/fonts/Digi Lalezar Plus.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DigiLalezarPlusCircle';
+    src: url('./assets/fonts/Digi Lalezar Plus Circle.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DigiLalezarPlusGrunge';
+    src: url('./assets/fonts/Digi Lalezar Plus Grunge.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Apply the font to the entire app */
+body {
+    /* font-family: 'DigiLalezarPlusGrunge'; */
+    /* font-family: 'BNazaninBold'; */
+    /* font-family: 'BNazaninOutline'; */
+    /* font-family: 'BNazanin'; */
+    /* font-family: 'Lalezar'; */
+    /* font-family: 'BTitrBold'; */
+    /* font-family: 'DigiLalezarPlus'; */
+    font-family: 'DigiLalezarPlusCircle';
+    /* font-family: 'DigiLalezarPlusGrunge'; */
+}

@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 
-const Card = ({ title, example }) => (
-  <div className='border rounded-lg p-4 mb-4'>
-    <h3 className='text-xl font-bold mb-2'>{title}</h3>
-    <p>{example}</p>
+const Card = ({ onClick, children }) => (
+  <div
+    className="border bg-white rounded-lg p-4 mb-4 cursor-pointer shadow-lg shadow-slate-200"
+    onClick={onClick}
+  >
+    {children}
   </div>
 );
 
